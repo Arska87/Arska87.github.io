@@ -568,13 +568,11 @@ a:focus {
 
 .map_container {
   height: 350px;
+  border-width: 0px;
 }
 
 .map_container .map-responsive {
   height: 100%;
-}
-
-.iframe {
   border-width: 0px;
 }
 
