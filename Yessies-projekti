@@ -1,0 +1,483 @@
+<!doctype html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+        <link rel="icon" type="image/x-icon" href="favicon.ico">
+        <title>Yessies</title>
+        
+        <!-- CSS -->
+        <link rel="stylesheet" href="css/reset.css">
+        <link rel="stylesheet" href="css/simplegrid.css">
+        <link rel="stylesheet" href="css/icomoon.css">
+        <link rel="stylesheet" href="css/lightcase.css">
+        <link rel="stylesheet" href="js/owl-carousel/owl.carousel.css" />
+        <link rel="stylesheet" href="js/owl-carousel/owl.theme.css" />
+        <link rel="stylesheet" href="js/owl-carousel/owl.transitions.css" />
+        <link rel="stylesheet" href="style.css">
+        <link rel="stylesheet" type="text/css" href="slick/slick.css"/>
+        <link rel="stylesheet" type="text/css" href="slick/slick-theme.css"/>
+        
+        
+
+        <!-- Scriptit-->
+        <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+        
+
+        <!-- Google Fonts -->
+        <link href='http://fonts.googleapis.com/css?family=Source+Sans+Pro:300,400,700,900' rel='stylesheet' type='text/css'>
+        <link href='http://fonts.googleapis.com/css?family=Montserrat:400,700' rel='stylesheet' type='text/css'>
+
+
+        <!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
+           <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
+           <!--[if lt IE 9]>
+             <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
+             <script src="https://oss.maxcdn.com/libs/respond.js/1.4.2/respond.min.js"></script>
+           <![endif]-->
+        </head>
+        <body id="home">
+            <!-- Aloitus ja logo -->
+            <header id="top-header" class="header-home">
+                <div class="grid">
+                    <div class="col-1-1">
+                        <div class="content">
+                            <div class="logo-wrap">
+                                <a href="#0" class="logo" img src="/images/Yessies-logo.png"></a>
+                            </div>
+                            <div class="w-navline w-navline-role-hp" style="top: 0px;">
+                                <div class="w-navline-holder">
+                                <div class="w-navline-logo">
+                                <div class="w-navline-tabs">
+                                    <nav class="navigation">
+                                        <input type="checkbox" id="nav-button">
+                                        <label for="nav-button" onclick></label>
+                                        <ul class="nav-container">
+                                            <li><a href="#home" class="current">Etusivu</a></li>
+                                            <li><a href="#services">Palvelut</a></li>
+                                            <li><a href="#work">Albumi</a></li>
+                                            <li><a href="#contact">Yhteystiedot</a></li>
+                                        </ul></div>
+                            </nav>
+                        </div>
+                    </div>
+                </div>
+            </header>
+            <!-- Aloituspalkin loppuuuu -->
+
+            <!-- "Esittelyt ja muuta liibalaabaa" -->
+            <div class="parallax-section parallax1">
+                <div class="grid grid-pad">
+                    <div class="col-1-1">
+                         <div class="content content-header" >
+                            <h2>Luovaa mainontaa vuodesta 2004 lähtien</h2>
+                            <p>Tervetuloa tutustumaan yritykseni nettisivuihin! Minulla on lähes 20 vuoden kokemus yritystoiminnasta ja olen erikoistunut mainos- ja painopalveluihin. Avullani voit painattaa kuvia vaatteisiin ilman minimitilausmäärää, ja voin painattaa jopa yhdenkin paidan! Nettisivuni on suunniteltu erityisesti B2B-asiakkaille, joilla on tarve mainos- ja painopalveluille. Voit käyttää sivullani piirtotyökalua ja suunnitella helposti oman painatuksesi, ja teen sen puolestasi.</p>
+                                </a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <!-- Esittelyn loppu -->
+            
+            <svg class="curveUpColor2" xmlns="http://www.w3.org/2000/svg" version="1.1" width="100%" height="100" viewBox="0 0 100 100" preserveAspectRatio="none">
+                <path d="M0 100 C 20 0 50 0 100 100 Z"></path>
+            </svg>
+            <!-- Kuvakarusellin alku -->
+            <div class="slider-section">
+                <div class="slider">
+                    <img src="images/slideshow/DSC_0182.jpg" alt="">
+                    <img src="images/slideshow/DSC00074.jpg" alt="">
+                    <img src="images/slideshow/DSC_0256.jpg" alt="">
+                    <img src="images/slideshow/DSC00224.jpg" alt="">
+                    <img src="images/slideshow/DSC_0179.jpg" alt="">
+                </div>
+            </div>
+            <!--  Kuvakarusellin JS  -->
+            <script type="text/javascript" src="slick/slick.min.js"></script>
+            <script type="text/javascript">
+              $(document).ready(function(){
+                 $('.slider').slick({
+                    autoplay: true,
+                    autoplaySpeed: 3000,
+                    dots: true,
+                    slidesToShow: 1
+                 });
+                });
+            </script>
+            <!--   Kuvakarusellin loppu -->
+            <!-- Painikkeet-->
+            <svg class="curveDownColor2" xmlns="http://www.w3.org/2000/svg" version="1.1" width="100%" height="100" viewBox="0 0 100 100" preserveAspectRatio="none">
+                <path d="M0 0 C 50 100 80 100 100 0 Z"></path>
+            </svg>
+            <!-- Services Section -->
+            <div class="wrap services-wrap" id="services">
+                <section class="grid grid-pad services">
+                    <h2>Palvelut</h2>
+                        <p>Yritykseni on erittäin joustava, ja pystyn tarjoamaan sinulle laadukkaita painopalveluita myös iltaisin ja viikonloppuisin, vaikka en olekaan päätoimisesti toimiva yrittäjä. Olen erittäin ylpeä laadukkaasta työstäni ja haluan antaa töideni puhua puolestani.</p>
+                    <div class="col-1-4 service-box service-1" >
+                        <div class="content">
+                            <div class="service-icon">
+                                <i class="circle-icon icon-heart4"></i>
+                            </div>
+                            <div class="service-entry">
+                                <h3>Digitaaliset painotuotteet</h3>
+                                <p>Kuvaus tuotteesta</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-1-4 service-box service-2" >
+                        <div class="content">
+                            <div class="service-icon">
+                                <i class="circle-icon icon-star4"></i>
+                            </div>
+                            <div class="service-entry">
+                                <h3>Painatukset</h3>
+                                <p>Kuvaus tuotteesta</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-1-4 service-box service-3">
+                        <div class="content">
+                            <div class="service-icon">
+                                <i class="circle-icon icon-display"></i>
+                            </div>
+                            <div class="service-entry">
+                                <h3>Verkkosivut</h3>
+                                <p>Kuvaus tuotteesta</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-1-4 service-box service-4" >
+                        <div class="content">
+                            <div class="service-icon">
+                                <i class="circle-icon icon-user6"></i>
+                            </div>
+                            <div class="service-entry">
+                                <h3>Käyntikortit</h3>
+                                <p>Kuvaus tuotteesta</p>
+                            </div>
+                        </div>
+                    </div>
+                </section>
+                <svg class="curveDownColor" xmlns="http://www.w3.org/2000/svg" version="1.1" width="100%" height="100" viewBox="0 0 100 100" preserveAspectRatio="none">
+                    <path d="M0 0 C 50 100 80 100 100 0 Z"></path>
+                </svg>
+            </div>
+            <!-- End Services Section -->
+            
+            <!-- CurveDown -->
+
+
+            <!-- Work Section -->
+            <div class="wrap grey recent-wrap" id="work">
+                <section class="grid grid-pad">
+                    <h2>Albumi</h2>
+                    <!-- Start of Filter section -->
+                    <div class="col-1-1 mix">
+                        <ul class="filters" >
+                            <li class="filter active" data-filter="all">Kaikki</li>
+                            <li class="filter" data-filter=".illustration">Painatukset</li>
+                            <li class="filter" data-filter=".web-design">Verkkosivut</li>
+                            <li class="filter" data-filter=".photography">Digitaaliset tuotteet</li>
+                        </ul>
+                    </div>
+
+                    <!-- Tähän lisätään oikeat tuotenimet ja luokat sekä kuvakollaasi Jessican lähettämistä töistä-->
+                    <!-- End of Filter section -->
+                    <div class="portfolio-items" >
+                        <div class="col-1-3 mix illustration">
+                            <div class="content">
+                                <div class="recent-work">
+                                    <img src="images/work/1-small.jpg" alt="">                                    
+                                    <div class="overlay">
+                                        <span>Painatukset</span>
+                                        <h2><a class="img-wrap" data-rel="lightcase:illustration" title="T-paita" href="images/work/1-big.jpg">Muolaa</a></h2>
+                                    </div>
+                                    
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-1-3 mix photography">
+                            <div class="content">
+                                <div class="recent-work">
+                                    <img src="images/work/6-small.jpg" alt="">
+                                    <div class="overlay">
+                                        <span>Digitaaliset tuotteet</span>
+                                        <h2><a class="img-wrap" data-rel="lightcase:photography" title="Käyntikortti" href="images/work/6-big.jpg">Hoitoneula</a></h2>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-1-3 mix illustration">
+                            <div class="content">
+                                <div class="recent-work">
+                                    <img src="images/work/2-small.jpg" alt="">
+                                    <div class="overlay">
+                                        <span>Painatukset</span>
+                                        <h2><a class="img-wrap" data-rel="lightcase:illustration" title="Lippis" href="images/work/2-big.jpg">CheriFest</a></h2>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-1-3 mix photography">
+                            <div class="content">
+                                <div class="recent-work">
+                                    <img src="images/work/5-small.jpg" alt="">
+                                    <div class="overlay">
+                                        <span>Digitaaliset tuotteet</span>
+                                        <h2><a class="img-wrap" data-rel="lightcase:photography" title="Käyntikortti" href="images/work/5-big.jpg">Hoitoneula</a></h2>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-1-3 mix web-design">
+                            <div class="content">
+                                <div class="recent-work">   
+                                    <img src="images/work/8-small.jpg" alt="">
+                                    <div class="overlay">
+                                        <span>Verkkosivut</span>
+                                        <h2><a class="img-wrap" data-rel="lightcase:webdesign" title="Verkkosivut" href="images/work/8-big.jpg">Broström</a></h2>
+                                    </div>
+                                </div>
+                                </div>
+                            </div>
+                            <div class="col-1-3 mix web-design">
+                            <div class="content">
+                                <div class="recent-work">
+                                    <img src="images/work/3-small.jpg" alt="">
+                                    <div class="overlay">
+                                        <span>Painatukset</span>
+                                        <h2><a class="img-wrap" data-rel="lightcase:illustration" title="Jack the sailor - Illustration" href="images/work/3-big.jpg">Jack the sailor</a></h2>
+                                    </div>
+                                </div>
+                                </div>
+                            </div>
+                            <div class="col-1-3 mix photography">
+                            <div class="content">
+                                <div class="recent-work">
+                                    <img src="images/work/7-small.jpg" alt="">
+                                    <div class="overlay">
+                                        <span>Digitaaliset tuotteet</span>
+                                        <h2><a class="img-wrap" data-rel="lightcase:photography" title="Mainos" href="images/work/7-big.jpg">Solheds</a></h2>
+                                    </div>
+                                </div>
+                                </div>
+                            </div>
+                            <div class="col-1-3 mix illustration">
+                            <div class="content">
+                                <div class="recent-work">
+                                    <img src="images/work/4-small.jpg" alt="">
+                                    <div class="overlay">
+                                        <span>Painatukset</span>
+                                        <h2><a class="img-wrap" data-rel="lightcase:illustration" title="Tuotteet" href="images/work/4-big.jpg">Minas Oy</a></h2>
+                                    </div>
+                                </div>
+                                </div>
+                            </div>
+                            <div class="col-1-3 mix illustration">
+                            <div class="content">
+                                <div class="recent-work">
+                                    <img src="images/work/9-small.jpg" alt="">
+                                    <div class="overlay">
+                                        <span>Painatukset</span>
+                                        <h2><a class="img-wrap" data-rel="lightcase:webdesign" title="Mainos" href="images/work/9-big.jpg">Luiginpaja</a></h2>
+                                    </div>
+                                </div>
+                                </div>
+                            </div>
+                        </div>
+                      
+
+                </section>  
+            </div>
+            <!-- End Work Section -->
+
+            <!-- CurveUp -->
+            <svg class="curveUpColor" xmlns="http://www.w3.org/2000/svg" version="1.1" width="100%" height="100" viewBox="0 0 100 100" preserveAspectRatio="none">
+                <path d="M0 100 C 20 0 50 0 100 100 Z"></path>
+            </svg>
+
+              <!-- Quotes Section -->
+              <!-- Tähän vois hakea kivoja Quoteseja luovuudesta ja erilaisuudesta-->
+            <div class="wrap services-wrap" >
+                <section class="grid grid-pad">
+                    <div class="col-1-1 service-box cl-client-carousel-container">
+                        <div class="content">
+                            <div class="cl-client-carousel">
+                                
+                                <div class="item client-carousel-item"><!-- Start of item -->
+                                <div class="quotes-icon">
+                                    <i class="icon-quotes-left"></i>
+                                </div>
+                                <p>Tähän asiakkaan teksti</p>
+                                <h4>-Asiakkaan nimi</h4>
+                                </div><!-- End of item -->
+                                
+                                <div class="item client-carousel-item"><!-- Start of item -->
+                                <div class="quotes-icon">
+                                    <i class="icon-quotes-left"></i>
+                                </div>
+                                <p>Tähän asiakkaan teksti</p>
+                                <h4>-Asiakkaan nimi</h4>
+                                </div><!-- End of item -->
+                                <div class="item client-carousel-item"><!-- Start of item -->
+                                <div class="quotes-icon">
+                                    <i class="icon-quotes-left"></i>
+                                </div>
+                                <p>Tähän asiakkaan teksti</p>
+                                <h4>-Asiakkaan nimi</h4>
+                                </div><!-- End of item -->
+                                
+                            </div>
+                        </div>
+                    </div>
+                </section>
+            </div>
+            <!-- End Quotes Section -->
+
+             <!-- CurveDown -->
+            <svg class="curveDownColor" xmlns="http://www.w3.org/2000/svg" version="1.1" width="100%" height="100" viewBox="0 0 100 100" preserveAspectRatio="none">
+                <path d="M0 0 C 50 100 80 100 100 0 Z"></path>
+            </svg>
+
+                <!-- Contact Section -->
+                <div class="wrap contact" id="contact">
+                    <div class="grid grid-pad" >
+                        <h2>Contact</h2>
+                        <div class="col-1-2" >
+                            <div class="content address">
+                                <h3>Yhteystiedot</h3>
+                                <p>Voit ottaa yhteyttä viereisellä lomakkeella tai laittamalla sähköpostia. Vastaamme tarjouspyyntöönne mahdollisimman nopeasti.</p>
+                                <address>
+                                    <div>
+                                        <div class="box-icon">
+                                            <i class="icon-location"></i>
+                                        </div>
+                                        <span>Osoite:</span>
+                                        <p>Toiminimi Jessica Karlsson, Mosantie 23, 04170 Paippinen</p>
+                                    </div>
+                                    
+                                    <div>
+                                        <div class="box-icon">
+                                            <i class="icon-clock"></i>
+                                        </div>
+                                        <span>Olemme avoinna:</span>
+                                        <p>Sovitusti</p>
+                                    </div>
+                                    
+                                    <div>
+                                        <div class="box-icon">
+                                            <i class="icon-phone"></i>
+                                        </div>
+                                        <span>Puhelin ja sähköposti:</span>
+                                        <p>040 5049 704 / <a href="mailto:info.yessies@gmail.com">info.yessies@gmail.com</a></p>
+                                    </div>                                  
+                                </address>
+                            </div>
+                        </div>
+                         <div class="col-1-2 pleft-25" >
+                            <div class="content contact-form">
+                                <form class="form">
+                                    <input type="text" class="comment-name" placeholder="Nimi*" required>
+                                    <input type="email" class="comment-email" placeholder="Email*" required>
+                                    <input type="text" class="comment-subject" placeholder="Aihe">
+                                    <textarea class="required comment-text" placeholder="Viesti..." required></textarea>
+                                    <input type="submit" value="Lähetä viesti" class="btn submit comment-submit">
+                                </form>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <!-- End Contact Section -->
+
+                <!-- CurveDown -->
+                <svg class="curveDownColor" xmlns="http://www.w3.org/2000/svg" version="1.1" width="100%" height="100" viewBox="0 0 100 100" preserveAspectRatio="none">
+                    <path d="M0 0 C 50 100 80 100 100 0 Z"></path>
+                </svg>
+
+                <!-- Footer -->
+                <footer class="wrap">
+                    <div class="grid grid-pad" >
+                        <div class="col-1-4">
+                            <div class="content">
+                                <div class="footer-widget">
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-1-4" >
+                            <div class="content">
+                                
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-1-4" >
+                            <div class="content">
+                                <div class="footer-widget">
+                                    
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-1-4" >
+                            <div class="content">
+                                <div class="footer-widget">
+                                        </ul>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="social-footer">
+                        <div class="grid grid-pad">
+                            <div class="col-1-1" >
+                                <div class="content">
+                                    <div class="social-set">
+                                        <a  href="#0"><i class="icon-facebook"></i></a>
+                                        <a  href="#0"><i class="icon-linkedin2"></i></a>
+                                        <a  href="#0"><i class="icon-instagram"></i></a>
+                                    </div>
+                                    <p class="source-org copyright">© 2023 Omituisten Otusten Kerho</a></p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </footer>
+                <!-- End Footer -->
+
+                <div class="loader-overlay">
+                    <div class="loader">
+                        <div class="bar"></div>
+                        <div class="bar"></div>
+                        <div class="bar"></div>
+                        <div class="bar"></div>
+                        <div class="bar"></div>
+                    </div>
+                </div>
+
+                <!-- JS -->
+                <script src="js/jquery.js"></script>
+                <script src="js/main.js"></script>
+                <script src="js/mixitup.js"></script>
+                <script src="js/smoothscroll.js"></script>
+                <script src="js/jquery.nav.js"></script>
+                <script src="js/owl-carousel/owl.carousel.min.js"></script>
+                <script src="https://maps.googleapis.com/maps/api/js"></script>
+                <script src="http://cdnjs.cloudflare.com/ajax/libs/waypoints/2.0.3/waypoints.min.js"></script>
+                <script src="js/jquery.counterup.min.js"></script>
+                <script src="js/lightcase.min.js"></script>
+                <!-- kuvakarusellin JS -->
+                <script type="text/javascript" src="slick/slick.min.js"></script>
+                <script type="text/javascript">
+                  $(document).ready(function(){
+                     $('.slider').slick({
+                        autoplay: true,
+                        autoplaySpeed: 3000,
+                        dots: true,
+                        slidesToShow: 1
+                     });
+                    });
+                </script>
+
+            </body>
+        </html>
